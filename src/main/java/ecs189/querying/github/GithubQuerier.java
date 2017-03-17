@@ -65,7 +65,7 @@ public class GithubQuerier {
 
                 sb.append("<strong>" + "SHA: " + "</strong>" + SHA + "<br>");
                 sb.append("<strong>"+ "Message: " + "</strong>" + message);
-                sb.append("<br>");
+                sb.append("<br><br>");
                 sb.append("<hr>");
 
             }

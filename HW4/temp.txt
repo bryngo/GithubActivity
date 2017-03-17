@@ -1,0 +1,3 @@
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                     NAMES
+e34cdeecc50d        activityold         "/bin/sh -c 'catal..."   About an hour ago   Up About an hour    0.0.0.0:32802->8080/tcp   ecs189_web1_1
+d5840d8eb170        ng                  "/bin/sh -c 'servi..."   About an hour ago   Up About an hour    0.0.0.0:8888->8888/tcp    ecs189_proxy_1
