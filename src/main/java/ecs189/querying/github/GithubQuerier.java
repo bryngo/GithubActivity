@@ -63,8 +63,8 @@ public class GithubQuerier {
                 SHA = singleCommit.getString("sha");
                 message = singleCommit.getString("message");
 
-                sb.append("<strong>" + "SHA: " + "</strong>" + SHA + "<br>");
-                sb.append("<strong>"+ "Message: " + "</strong>" + message);
+                sb.append("<strong>" + "SHA: " + "</strong>" + SHA);
+                sb.append("<strong>"+ " Message: " + "</strong>" + message);
                 sb.append("<br><br>");
                 sb.append("<hr>");
 
