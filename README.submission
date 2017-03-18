@@ -2,6 +2,6 @@
     - this creates a network with two docker images. One being the proxy and the other being the old implementation of the web app.
 2) run swap.sh with a single parameter (the image you want to swap to)
     - This creates a new docker in the same network with the given image parameter.
-    - It then tells the proxy to redirect traffic to this image instead inside of the network and then proceedes to kill the old image.
+    - It then tells the proxy to redirect traffic to this newly created image instead inside of the network and then proceedes to kill the old image.
     - It finally reloads the service to make the changes to live.
 3) done
